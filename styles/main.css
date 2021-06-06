@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+/*JOB THE HEADER*/
+header {
+	background-color: #ff7a2f;
+	font-size: large;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 36em;
+	height: 4em;
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
+	-moz-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
+}
+.logotype-header {
+	font-weight: 700;
+	font-size: 2em;
+	margin-left: 0.4em;
+	margin-top: 0.2em;
+	padding: 0.2em;
+}
+.logotype-header > a {
+	text-decoration: none;
+	color: rgb(26, 25, 25);
+}
+.others-header {
+	display: grid;
+	grid-template-columns: repeat(3, 4.4em);
+	text-align: center;
+	column-gap: 1.2em;
+	padding: 0.5em;
+	margin: 1em;
+}
+.others-header > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.others-header,
+a:hover {
+	color: #080808ab;
+}
+/*--------------*/
+/*Main*/
+main {
+	height: 500px;
+}
+/*FOOTER*/
+footer {
+	background-color: #ff7b2f93;
+	display: grid;
+}
+/*------*/
