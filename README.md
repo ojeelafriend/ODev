@@ -1,8 +1,7 @@
 # ODev project
 
 ## README de uso personal para trazar futuras tareas.
-
-### En este readme permítanme la travesía de escribir en mi idioma.
+En este readme permítanme la travesía de escribir en mi idioma.
 
 ## Blog: Mostrar una auténtica sección de bitácoras
 
