@@ -8,10 +8,11 @@
 
 ### Componentes:
 
-- Preveer de qué forma se comporará el controlador de blog.
-- Analizar el modelo al que responderá.
+- Preveer de qué forma se comportará el controlador de blog.
+- Analizar el modelo al que responderá. ((en proceso))
 
 ### Estilos:
 
-- Maquetar el diseño junto a la eleccion de colores.
+- Maquetar el diseño junto a la eleccion de colores. ((en proceso))
+- Aplicar manejo de DOM.
 - Estudiar a cerca de animaciones con CSS.

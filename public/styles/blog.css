@@ -1,0 +1,68 @@
+.blog-container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 4em;
+}
+.card-post {
+	display: flex;
+	font-family: 'Quicksand', sans-serif;
+	justify-content: center;
+	position: relative;
+	top: 2em;
+}
+.card-box {
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 80px 1fr;
+	height: 26em;
+	width: 60%;
+	padding: 10px;
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.123);
+}
+
+.card-header > .date-post {
+	margin-top: 4px;
+	font-weight: 400;
+	font-size: 10pt;
+}
+
+.card-body {
+	display: grid;
+	font-weight: 400;
+	font-size: 12pt;
+	grid-template-columns: [content] 1fr 90px;
+	grid-template-rows: 1fr 20px;
+}
+
+.card-body > p {
+	grid-column: content / span 2;
+}
+
+.card-body > a {
+	display: grid;
+	text-decoration: none;
+	grid-template-columns: 30px 48px;
+	justify-content: center;
+	color: black;
+}
+.card-next {
+	display: flex;
+	justify-content: center;
+}
+.next-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 4em;
+	column-gap: 2.5em;
+}
+
+.next-box > div {
+	background-color: #fff;
+	width: 24.2em;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.034);
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.062);
+	-moz-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.062);
+}

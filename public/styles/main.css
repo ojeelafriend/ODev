@@ -6,16 +6,17 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
+	background-color: #f3f3f3;
 }
 
 /*JOB THE HEADER*/
 header {
-	background-color: #ff7a2f;
+	background-color: #2196f3;
 	font-size: large;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 36em;
-	height: 4em;
+	height: 3.4em;
 	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
 	-webkit-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
 	-moz-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.47);
@@ -24,12 +25,17 @@ header {
 	font-weight: 700;
 	font-size: 2em;
 	margin-left: 0.4em;
-	margin-top: 0.2em;
-	padding: 0.2em;
+	margin-top: 0.1em;
+	padding: 0.1em;
 }
 .logotype-header > a {
 	text-decoration: none;
-	color: rgb(26, 25, 25);
+	text-shadow: black 1px 1px 2px;
+	color: rgb(255, 254, 254);
+	transition: color 0.3s linear 0.2s;
+}
+.logotype-header > a:hover {
+	color: rgba(255, 255, 255, 0.699);
 }
 .others-header {
 	display: grid;
@@ -37,24 +43,26 @@ header {
 	text-align: center;
 	column-gap: 1.2em;
 	padding: 0.5em;
-	margin: 1em;
+	margin: 0.6em;
 }
 .others-header > a {
 	text-decoration: none;
-	color: #ffffff;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	transition: background-color 0.04s linear 0.04s;
 }
-.others-header,
-a:hover {
-	color: #080808ab;
+.others-header > a:hover {
+	background-color: rgba(92, 92, 92, 0.233);
+	border-radius: 3px;
 }
 /*--------------*/
 /*Main*/
 main {
 	height: 500px;
 }
-/*FOOTER*/
+/*FOOTER
 footer {
-	background-color: #ff7b2f93;
+	background-color: ;
 	display: grid;
 }
 /*------*/
